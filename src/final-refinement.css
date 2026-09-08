@@ -1,0 +1,23 @@
+.hero h1{font-size:clamp(17px,4.48vw,32px);line-height:1.42;letter-spacing:-.045em}
+.hero h1 span{white-space:nowrap}
+.hero h1 span:first-child{font-size:1em;margin-bottom:1px;text-decoration:underline;text-decoration-color:#D99A37;text-decoration-thickness:2px;text-underline-offset:5px}
+.plans h2 em{text-decoration:underline;text-decoration-color:#D99A37;text-decoration-thickness:3px;text-underline-offset:6px}
+.upgradeHint{display:flex;align-items:center;justify-content:center;gap:10px;background:#fff0d8;border:1px solid #D99A3780;border-radius:12px;padding:16px 10px;margin-top:20px;font-size:13px;line-height:1.5}
+.upgradeHint>span{margin:0;max-width:215px;display:block}
+.upgradeHint .atlasIcon{flex-shrink:0;width:25px;height:25px;margin:0}
+.complete .anchorPrice,.complete .por,.complete>.price{text-align:center;align-self:stretch}
+.complete>.price{font-size:clamp(43px,10vw,54px);color:#B51D13;animation:completePricePulse 2.8s ease-in-out infinite}
+@keyframes completePricePulse{50%{transform:scale(1.035)}}
+@media(prefers-reduced-motion:reduce){.complete>.price{animation:none}}
+.heroAsset:not(.pending),.peopleAsset:not(.pending),.bonusAsset:not(.pending),.planAsset:not(.pending),.upgradeAsset:not(.pending){aspect-ratio:auto;background:none;border:0;border-radius:0;padding:0;min-height:0}
+.heroAsset:not(.pending)>img,.peopleAsset:not(.pending)>img,.bonusAsset:not(.pending)>img,.planAsset:not(.pending)>img,.upgradeAsset:not(.pending)>img{display:block;width:100%;height:auto;object-fit:contain}
+.calculatorImage{padding:0;border:0;background:transparent;max-width:720px}
+.calculatorImage>img{width:100%;height:auto;object-fit:contain;display:block}
+.rasterIcon{object-fit:contain}
+.portrait:not(.pending){background:transparent;border:0}
+.includedBonuses.imageBonus{padding:0;background:transparent;border:0}
+.imageBonus>img{display:block;width:100%;height:auto;object-fit:contain}
+.guaranteeSeal.imageSeal{border:0;outline:0;width:164px;height:auto;border-radius:0}
+.imageSeal>img{width:100%;height:auto;object-fit:contain}
+@media(min-width:700px){.hero h1{font-size:32px}.upgradeHint{font-size:14px}}
+@media(max-width:374px){.hero h1{font-size:4.4vw}.upgradeHint{font-size:12px;gap:6px}}
