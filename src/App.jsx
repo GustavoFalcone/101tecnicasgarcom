@@ -9,8 +9,9 @@ function CTA({ children, onClick }) {
   const content = <>{children}<Icon name="arrow" /></>;
   return onClick ? <button className="cta" onClick={onClick}>{content}</button> : <a className="cta" href="#planos">{content}</a>;
 }
-function Checkout({ children, basic = false, secondary = false }) {
-  const href = checkoutWithParams(basic ? offer.basicCheckout : offer.completeCheckout, location.search);
+function Checkout({ children, basic = false, upgrade = false, secondary = false }) {
+  const checkout = basic ? offer.basicCheckout : upgrade ? offer.upgradeCheckout : offer.completeCheckout;
+  const href = checkoutWithParams(checkout, location.search);
   return href ? <a className={secondary ? "secondary" : "cta"} href={href}>{children}</a> : <button className={secondary ? "secondary" : "cta"} disabled data-checkout-pending>{children}</button>;
 }
 function List({ items, excluded = false }) {
@@ -65,7 +66,7 @@ function Upgrade({ open, close }) {
   return <dialog ref={ref} className="upgrade" aria-labelledby="upgrade-title" onKeyDown={trapFocus} onCancel={(e) => {
     e.preventDefault();
     close();
-  }}><button className="close" onClick={close} aria-label="Fechar oferta especial" autoFocus>×</button><span className="eyebrow">OFERTA ESPECIAL</span><h2 id="upgrade-title">Receba o material completo  por Apenas R$ 17,90</h2><p>Aceite este desconto especial do Plano Completo por apenas R$ 7,90 a mais que o Plano Básico</p><Asset className="upgradeAsset" src="/assets/planos/plano-completo.webp" alt="Pacote completo do Atlas Visual do Pizzaiolo" /><List items={bonuses.map((b) => b.title)} /><div className="price">{offer.upgradePrice}</div><Checkout>SIM, QUERO O PLANO COMPLETO</Checkout><Checkout basic secondary>NÃO, QUERO CONTINUAR SOMENTE COM O BÁSICO</Checkout></dialog>;
+  }}><button className="close" onClick={close} aria-label="Fechar oferta especial" autoFocus>×</button><span className="eyebrow">OFERTA ESPECIAL</span><h2 id="upgrade-title">Receba o material completo  por Apenas R$ 17,90</h2><p>Aceite este desconto especial do Plano Completo por apenas R$ 7,90 a mais que o Plano Básico</p><Asset className="upgradeAsset" src="/assets/planos/plano-completo.webp" alt="Pacote completo do Atlas Visual do Pizzaiolo" /><List items={bonuses.map((b) => b.title)} /><div className="price">{offer.upgradePrice}</div><Checkout upgrade>SIM, QUERO O PLANO COMPLETO</Checkout><Checkout basic secondary>NÃO, QUERO CONTINUAR SOMENTE COM O BÁSICO</Checkout></dialog>;
 }
 function FAQ() {
   const [active, setActive] = useState(null);

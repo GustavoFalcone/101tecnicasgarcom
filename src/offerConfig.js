@@ -5,8 +5,9 @@ export const offerConfig = {
   completeAnchor: "DE R$ 97,00",
   upgradePrice: "R$ 17,90",
   bonusTotal: "R$ 87,00",
-  basicCheckout: "{{LINK_CHECKOUT_BASICO}}",
-  completeCheckout: "{{LINK_CHECKOUT_COMPLETO}}",
+  basicCheckout: "https://zuckpay.com.br/checkout/plano-basico-100-mapas-de-montagem-de-pizzas",
+  completeCheckout: "https://zuckpay.com.br/checkout/plano-completo-100-mapas-de-montagem-de-pizzas",
+  upgradeCheckout: "https://zuckpay.com.br/checkout/plano-completo-100-mapas-de-montagem-de-pizzas-1",
   countdownMinutes: 30,
   countdownStorageKey: "atlas-pizzaiolo:offer-start:v1"
 };
