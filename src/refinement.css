@@ -2,7 +2,7 @@
 :root{--top:48px}
 .urgency{flex-direction:row;flex-wrap:nowrap;gap:10px;padding:8px 10px;min-height:48px;white-space:nowrap}
 .urgency strong{font-size:clamp(8px,2.05vw,12px);letter-spacing:0}
-.urgency>span{display:flex;align-items:center;gap:5px;padding:7px 8px;border:1px solid #ffffff70;border-radius:6px;background:#961b14;font-size:clamp(8px,1.9vw,11px);letter-spacing:0}
+.urgency>span{display:flex;align-items:center;gap:5px;padding:7px 8px;border:1px solid #ffffff70;border-radius:6px;background:#7A1F2B;font-size:clamp(8px,1.9vw,11px);letter-spacing:0}
 .urgency b{margin:0;font-size:clamp(10px,2.5vw,14px)}
 .hero{padding-top:18px;padding-bottom:20px}
 .heroLabel{background:var(--red);color:white;border:0;padding:6px 16px;font-size:10px;letter-spacing:.1em;margin-bottom:12px}
@@ -12,11 +12,11 @@
 .heroAsset{margin:15px auto;width:92%;max-width:420px;aspect-ratio:1.25}
 .hero .cta{animation:ctaPulse 2.8s ease-in-out infinite;font-size:12px;min-height:54px;padding:15px 10px}
 .hero .micro{margin-top:12px;font-size:9px}
-@keyframes headlinePulse{50%{transform:scale(1.012);text-shadow:0 2px 14px #c5241a14}}
-@keyframes ctaPulse{50%{box-shadow:0 4px 0 #9b1e17,0 0 0 6px #c5241a14,0 9px 22px #c5241a24}}
+@keyframes headlinePulse{50%{transform:scale(1.012);text-shadow:0 2px 14px #7A1F2B14}}
+@keyframes ctaPulse{50%{box-shadow:0 4px 0 #7A1F2B,0 0 0 6px #7A1F2B14,0 9px 22px #7A1F2B24}}
 .digit{width:34px;height:48px;font-size:26px}.tileTimer{gap:5px}.colon{font-size:25px}
 .planGrid{align-items:start}
-.basic{padding:24px 20px;background:#fffdf9;border-color:#e6ddd2;box-shadow:none}
+.basic{padding:24px 20px;background:#FFFFFF;border-color:#E9DDE1;box-shadow:none}
 .basic h3{font-size:25px}.basic .eyebrow{margin-bottom:8px;color:#625e59;font-size:9px}
 .basic .planDescription{min-height:0;font-size:11px;margin-top:8px}
 .basic .price{font-size:32px;margin:20px 0 12px}
@@ -30,10 +30,10 @@
 @keyframes pointDown{50%{transform:translateY(5px) rotate(90deg)}}
 #plano-completo{scroll-margin-top:24px}
 /* Background transitions live in padding, never over text. */
-.demo{border:0;background:linear-gradient(to bottom,#fff9f2 0,#f8f0e5 55px,#f8f0e5 calc(100% - 55px),#fff9f2 100%)}
-.plans{background:linear-gradient(to bottom,#fff9f2 0,#f3e4d1 65px,#f3e4d1 calc(100% - 65px),#fff9f2 100%);padding-top:85px}
-.finalCta{border:0;background:linear-gradient(to bottom,#fff9f2,#f8ead7 65px,#f8ead7 calc(100% - 65px),#242424 100%);padding-bottom:85px}
-.valuePanel{background:linear-gradient(150deg,#fff4df,#fffaf2);color:var(--ink);border:1px solid #d99a3780;box-shadow:0 12px 35px #d99a3712}
+.demo{border:0;background:linear-gradient(to bottom,#FFFFFF 0,#F7F1F3 55px,#F7F1F3 calc(100% - 55px),#FFFFFF 100%)}
+.plans{background:linear-gradient(to bottom,#FFFFFF 0,#F1E4E8 65px,#F1E4E8 calc(100% - 65px),#FFFFFF 100%);padding-top:85px}
+.finalCta{border:0;background:linear-gradient(to bottom,#FFFFFF,#F4E9EC 65px,#F4E9EC calc(100% - 65px),#242424 100%);padding-bottom:85px}
+.valuePanel{background:linear-gradient(150deg,#FAF4F6,#FFFFFF);color:var(--ink);border:1px solid #d99a3780;box-shadow:0 12px 35px #d99a3712}
 .valuePanel li{border-color:#d99a3745}.valuePanel li strong,.bonusTotal strong{color:var(--red)}
 .valuePanel p{color:var(--muted)}.freeValue{background:var(--red);color:white}
 @media(min-width:700px){.hero{padding-top:25px}.heroSubtitle{font-size:14px}.heroAsset{max-width:390px;aspect-ratio:1.35}.hero .cta{font-size:14px}.digit{width:43px;height:55px;font-size:30px}.hero .micro{font-size:10px}.basic{padding:26px 23px}}

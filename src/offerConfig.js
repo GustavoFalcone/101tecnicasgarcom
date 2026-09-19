@@ -1,44 +1,45 @@
 export const offerConfig = {
-  name: "Atlas Visual do Pizzaiolo",
+  name: "+101 Técnicas para Servir como um Garçom Profissional",
   basicPrice: "R$ 10,00",
   completePrice: "R$ 27,90",
   completeAnchor: "DE R$ 97,00",
   upgradePrice: "R$ 17,90",
   bonusTotal: "R$ 87,00",
-  basicCheckout: "https://zuckpay.com.br/checkout/plano-basico-100-mapas-de-montagem-de-pizzas",
-  completeCheckout: "https://zuckpay.com.br/checkout/plano-completo-100-mapas-de-montagem-de-pizzas",
-  upgradeCheckout: "https://zuckpay.com.br/checkout/plano-completo-100-mapas-de-montagem-de-pizzas-1",
+  basicCheckout: "https://zuckpay.com.br/checkout/plano-basico-101-tecnicas-para-servir-como-um-garcom-profissional",
+  completeCheckout: "https://zuckpay.com.br/checkout/plano-completo-101-tecnicas-para-servir-como-um-garcom-profissional",
+  upgradeCheckout: "https://zuckpay.com.br/checkout/plano-completo-101-tecnicas-para-servir-como-um-garcom-profissional-1",
   countdownMinutes: 30,
   countdownStorageKey: "atlas-pizzaiolo:offer-start:v1"
 };
 export const audiences = [
-  { image: "/assets/generated/pizzaiolo-iniciante.webp", title: "Pizzaiolo iniciante ou auxiliar", text: "Para quem está começando ou estudando sobre pizzas e ainda se confunde com ingredientes, sabores e montagens." },
-  { image: "/assets/generated/pizzaiolo-profissional.webp", title: "Quem já trabalha em Pizzarias", text: "Para quem precisa consultar rapidamente um sabor, conferir os componentes e não depender somente da memória no meio da produção." },
-  { image: "/assets/generated/dono-gerente.webp", title: "Dono ou gerente de pizzaria", text: "Para quem quer usar o material como apoio visual para organizar referências de montagem e facilitar o treinamento de quem está entrando na equipe." },
-  { image: "/assets/generated/empreendedor.webp", title: "Quem vende pizza em casa ou está começando um delivery (Empreendedores)", text: "Para empreendedores terem uma base visual de diferentes sabores para ampliar seu repertório sem precisar improvisar cada montagem do zero." }
+  { image: "/assets/generated/publico-garcom-restaurante.webp", title: "GARÇOM DE RESTAURANTE", text: "Para quem trabalha no atendimento de mesas e quer ter técnicas visuais para servir, carregar, recolher e se movimentar com mais agilidade e segurança no salão." },
+  { image: "/assets/generated/publico-garcom-hotel.webp", title: "GARÇOM DE HOTEL / A&B", text: "Para quem atua em hotéis, restaurantes de hotel ou no setor de alimentos e bebidas e precisa manter mais organização, postura e padrão durante o serviço." },
+  { image: "/assets/generated/publico-cumim.webp", title: "CUMIM / AUXILIAR DE GARÇOM", text: "Para quem ainda está no apoio do salão e quer entender melhor as técnicas do serviço para executar tarefas com mais confiança e depender menos do improviso." },
+  { image: "/assets/generated/publico-buffet-eventos.webp", title: "ATENDENTE DE BUFFET / EVENTOS", text: "Para quem trabalha em casamentos, festas, buffets e eventos e precisa lidar com bandejas, serviço, circulação, reposição e recolhimento de forma mais prática." }
 ];
 export const bonuses = [
-  { image: "/assets/bonus/bonus-01.webp", title: "Manual Visual de Pré-Preparo dos Ingredientes", summaryTitle: "MANUAL VISUAL DE PRÉ-PREPARO DOS INGREDIENTES", shortTitle: "Manual Visual de Pré-Preparo", text: "Um material ilustrado para consultar cortes, organização e pré-preparo de ingredientes usados na montagem.", summary: "Veja como organizar e preparar diferentes ingredientes antes da montagem de forma muito mais visual.", value: "R$ 27,00", icon: "prep" },
-  { image: "/assets/bonus/bonus-02.webp", title: "Guia Visual de Porcionamento e Distribuição", summaryTitle: "GUIA VISUAL DE PORCIONAMENTO E DISTRIBUIÇÃO", shortTitle: "Guia Visual de Porcionamento e Distribuição", text: "Veja exemplos visuais de distribuição para evitar concentração excessiva e compreender melhor a área de cobertura da pizza.", summary: "Referências visuais para entender melhor como distribuir os ingredientes pela área útil da pizza.", value: "R$ 23,00", icon: "sectors" },
-  { image: "/assets/bonus/bonus-03.webp", title: "+30 Desafios Visuais do Pizzaiolo", summaryTitle: "+30 DESAFIOS VISUAIS DO PIZZAIOLO", shortTitle: "+30 Desafios Visuais do Pizzaiolo", text: "Desafios ilustrados para testar seu olhar, identificar problemas e praticar a leitura visual de diferentes montagens.", summary: "Exercícios ilustrados para testar seu olhar e treinar a identificação de problemas de montagem e distribuição.", value: "R$ 17,00", icon: "eye" },
-  { image: "/assets/bonus/bonus-04.webp", title: "Certificado de Conclusão", summaryTitle: "CERTIFICADO DE CONCLUSÃO", shortTitle: "Certificado de Conclusão", text: "Certificado digital para registrar a conclusão do material.", summary: "Um certificado digital de conclusão do material para registrar que você finalizou o conteúdo.", value: "R$ 20,00", icon: "certificate" }
+  { image: "/assets/bonus/bonus-01.webp", title: "ATLAS VISUAL DE UTENSÍLIOS, COPOS E SERVIÇO", summaryTitle: "ATLAS VISUAL DE UTENSÍLIOS, COPOS E SERVIÇO", shortTitle: "Atlas Visual de Utensílios, Copos e Serviço", text: "Reconheça rapidamente taças, copos, pratos, talheres, bandejas e outros itens usados no salão.", summary: "Utensílios, copos, taças, pratos e itens de serviço explicados de forma rápida.", value: "R$ 27,00", icon: "acesso-atlas-utensilios" },
+  { image: "/assets/bonus/bonus-02.webp", title: "+30 DESAFIOS DO GARÇOM", summaryTitle: "+30 DESAFIOS DO GARÇOM", shortTitle: "+30 Desafios do Garçom", text: "Treine com situações reais do atendimento e veja como agir em diferentes momentos do salão.", summary: "Situações reais do salão para treinar decisões e aplicação prática.", value: "R$ 23,00", icon: "acesso-desafios-garcom" },
+  { image: "/assets/bonus/bonus-03.webp", title: "DICIONÁRIO VISUAL DO RESTAURANTE", summaryTitle: "DICIONÁRIO VISUAL DO RESTAURANTE", shortTitle: "Dicionário Visual do Restaurante", text: "Entenda termos, pratos, preparos e expressões comuns do restaurante de forma simples e visual.", summary: "Termos, pratos e preparos comuns do restaurante explicados de forma simples.", value: "R$ 17,00", icon: "acesso-dicionario-restaurante" },
+  { image: "/assets/bonus/bonus-04.webp", title: "CERTIFICADO DE CONCLUSÃO", summaryTitle: "CERTIFICADO DE CONCLUSÃO", shortTitle: "Certificado de Conclusão", text: "Receba um certificado digital ao finalizar o material.", summary: "Certificado digital ao finalizar o material.", value: "R$ 20,00", icon: "acesso-certificado" }
 ];
 export const benefits = [
-  { title: "Pare de depender só da memória", text: "Quando surgir dúvida sobre um sabor, abra o mapa e confira os componentes visualmente.", icon: "memory" },
-  { title: "Entenda a estrutura da montagem", text: "Veja a pizza pronta, a anatomia em camadas e uma sequência visual de referência na mesma página.", icon: "layers" },
-  { title: "Visualize pizzas divididas com mais clareza", text: "Consulte referências de meio a meio, 3 sabores e 4 sabores sem se perder entre os setores.", icon: "sectors" },
-  { title: "Consulte do jeito que for mais prático", text: "Abra pelo celular durante a rotina ou imprima as páginas que quiser deixar por perto.", icon: "device" }
+  { title: "Sirva com mais clareza", text: "Veja posições, movimentos e sequências visuais para entender como executar cada técnica de forma mais organizada.", icon: "pratica-claridade" },
+  { title: "Trabalhe com mais agilidade", text: "Consulte técnicas para bandejas, pratos, deslocamento e organização que ajudam a reduzir movimentos desnecessários durante o serviço.", icon: "pratica-agilidade" },
+  { title: "Tenha mais segurança no salão", text: "Compare o certo e o errado, observe detalhes de postura e entenda melhor como carregar, servir e recolher.", icon: "pratica-seguranca" },
+  { title: "Consulte sempre que precisar", text: "Abra pelo celular, tablet ou computador e encontre rapidamente a técnica que quer revisar antes ou durante o trabalho.", icon: "pratica-consulta-digital" }
 ];
 export const faqs = [
-  ["O que é o Atlas Visual do Pizzaiolo?", "É um material digital com +100 Mapas de Montagem de Pizzas. Cada mapa apresenta a pizza visualmente para facilitar a consulta dos componentes, da anatomia e da estrutura de montagem."],
-  ["Serve para quem está começando?", "Sim. O material foi pensado justamente para ser fácil de consultar, inclusive por pizzaiolos iniciantes, auxiliares e pessoas que ainda estão ganhando experiência na bancada."],
-  ["Já trabalho como pizzaiolo. Ainda pode me ajudar?", "Sim. Você pode usar o Atlas como referência rápida quando quiser conferir um sabor, uma composição ou uma pizza dividida sem depender apenas da memória."],
-  ["É um curso em vídeo?", "Não. O Atlas é um material visual e digital de consulta. A proposta é abrir, localizar a pizza e entender a montagem sem precisar assistir a aulas longas."],
-  ["Como vou receber o material?", "O material é digital. Após a confirmação da compra, o acesso é liberado conforme o processo da plataforma utilizada no checkout."],
-  ["Posso usar pelo celular?", "Sim. O material foi pensado para consulta digital e pode ser aberto pelo celular. Você também poderá imprimir páginas quando isso for mais prático para sua rotina."],
-  ["Preciso seguir todas as montagens exatamente iguais?", "Não. O Atlas funciona como referência visual. Cada pizzaria pode possuir seu próprio padrão de massa, porcionamento, ingredientes e montagem, então o conteúdo pode ser adaptado à realidade da operação."],
-  ["O certificado me torna um pizzaiolo profissional?", "Não. O certificado registra a conclusão do material e não substitui formação profissional, certificação reconhecida ou exigências específicas da profissão."],
-  ["Qual a diferença entre o Plano Básico e o Completo?", "O Plano Básico libera o Atlas principal com os +100 Mapas de Montagem. O Plano Completo inclui o Atlas e também os quatro bônus da oferta."]
+  ["O que é o material +101 Técnicas do Garçom?", "É um material visual e digital de consulta, organizado para ajudar você a entender técnicas de bandeja, serviço, postura, atendimento e recolhimento no salão."],
+  ["Serve para quem está começando?", "Sim. As explicações visuais facilitam a consulta de quem ainda está ganhando experiência e quer depender menos do improviso."],
+  ["Quem já trabalha como garçom também pode usar?", "Pode. O material funciona como uma referência rápida para revisar movimentos, conferir detalhes e organizar melhor o serviço."],
+  ["É um curso em vídeo?", "Não. É um material visual de consulta. Você abre a técnica que precisa e encontra a orientação sem ter que assistir a uma aula inteira."],
+  ["Como vou receber o acesso?", "O acesso é digital e fica disponível após a confirmação da compra, conforme o processo da plataforma de pagamento."],
+  ["Consigo consultar pelo celular?", "Sim. Você pode abrir o material pelo celular, tablet ou computador e imprimir páginas se isso for útil na sua rotina."],
+  ["Os bônus também são digitais?", "Sim. No Plano Completo, os quatro bônus acompanham o material principal em formato digital."],
+  ["O certificado comprova formação profissional?", "Não. Ele registra a conclusão do material, mas não substitui formação profissional, treinamento obrigatório ou certificação exigida por uma empresa."],
+  ["Qual é a diferença entre o Plano Básico e o Completo?", "O Plano Básico inclui as +101 Técnicas do Garçom. O Plano Completo reúne o material principal e os quatro bônus apresentados na página."],
+  ["Como funciona a garantia?", "Você tem 7 dias para acessar e conhecer o material. Se não quiser continuar dentro desse prazo, pode solicitar o reembolso pelas regras da plataforma de pagamento."]
 ];
 export function checkoutWithParams(checkout, search = "") {
   if (!checkout || checkout.includes("{{")) return null;

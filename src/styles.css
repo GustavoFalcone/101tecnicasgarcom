@@ -31,13 +31,13 @@
 :root {
   font-family: Poppins, sans-serif;
   color: #242424;
-  background: #FFF9F2;
+  background: #FFFFFF;
   font-synthesis: none;
-  --red:#C5241A;
+  --red:#7A1F2B;
   --gold:#D99A37;
   --ink:#242424;
-  --paper:#FFF9F2;
-  --line:#e9ddcf;
+  --paper:#FFFFFF;
+  --line:#E9DDE1;
   --muted:#625e59;
   --top:65px;
 }
@@ -172,7 +172,7 @@ main {
   border: 1px solid #D99A3766;
   border-radius: 30px;
   padding: 8px 12px;
-  background: #fffdfa;
+  background: #FFFFFF;
 }
 .hero h1 {
   font-size: clamp(18px, 4.62vw, 35px);
@@ -206,7 +206,7 @@ main {
     linear-gradient(
       135deg,
       #ffffff85,
-      #F7ECDD70);
+      #F7F1F370);
   border: 1px solid #D99A3730;
   border-radius: 12px;
 }
@@ -261,7 +261,7 @@ main {
   max-width: 520px;
   min-height: 60px;
   margin-inline: auto;
-  box-shadow: 0 4px 0 #9b1e17, 0 9px 22px #C5241A16;
+  box-shadow: 0 4px 0 #7A1F2B, 0 9px 22px #7A1F2B16;
   transition: background .2s, transform .2s;
 }
 .cta .atlasIcon {
@@ -270,7 +270,7 @@ main {
   color: white;
 }
 .cta:hover:not(:disabled) {
-  background: #ac2017;
+  background: #7A1F2B;
   transform: translateY(-1px);
 }
 .cta:active:not(:disabled) {
@@ -297,7 +297,7 @@ main {
   text-align: left;
   border: 1px solid var(--line);
   border-radius: 17px;
-  background: #fffdfa;
+  background: #FFFFFF;
   padding: 22px 18px;
 }
 .audienceCard h3 {
@@ -321,7 +321,7 @@ main {
 .featured {
   border-color: var(--gold);
   box-shadow: inset 4px 0 0 var(--red), 0 8px 28px #24242406;
-  background: #fff4e5;
+  background: #FAF4F6;
 }
 .featured h3 {
   color: var(--red);
@@ -330,7 +330,7 @@ main {
   max-width: 1320px;
   margin: auto;
   border-block: 1px solid var(--line);
-  background: #f8f0e5;
+  background: #F7F1F3;
 }
 .demo h2 {
   padding-inline: 18px;
@@ -360,7 +360,7 @@ main {
   aspect-ratio: 210/297;
   flex-shrink: 0;
   border-radius: 7px;
-  background: #fffdfa;
+  background: #FFFFFF;
   border: 1px solid var(--line);
   overflow: hidden;
 }
@@ -419,7 +419,7 @@ main {
   border-bottom: 1px solid var(--line);
 }
 .summaryCards article:first-child {
-  background: #fff0da;
+  background: #F8EEF1;
   border: 1px solid #D99A3766;
   border-radius: 15px;
 }
@@ -449,13 +449,13 @@ main {
   gap: 16px;
   border: 1px solid var(--line);
   padding: 20px 16px;
-  background: #fffdfa;
+  background: #FFFFFF;
   border-radius: 7px 22px 22px 7px;
   width: 97%;
 }
 .benefitCards article:nth-child(even) {
   margin-left: auto;
-  background: #fff3e2;
+  background: #FAF4F6;
   border-color: #D99A3760;
   border-radius: 22px 7px 7px 22px;
 }
@@ -496,7 +496,7 @@ main {
 }
 .bonusCards article {
   position: relative;
-  background: #fffdfa;
+  background: #FFFFFF;
   border: 1px solid #D99A3760;
   border-radius: 18px;
   overflow: hidden;
@@ -652,15 +652,15 @@ main {
   font-weight: 700;
   border-radius: 6px;
   color: white;
-  background: linear-gradient(#c5241a 49%, #a92018 50%);
-  box-shadow: 0 3px 0 #831b16;
+  background: linear-gradient(#7A1F2B 49%, #7A1F2B 50%);
+  box-shadow: 0 3px 0 #7A1F2B;
 }
 .digit:after {
   content: "";
   position: absolute;
   inset: 50% 0 auto;
   height: 1px;
-  background: #6f181666;
+  background: #7A1F2B66;
 }
 .colon {
   color: var(--red);
@@ -683,7 +683,7 @@ main {
   border: 1px solid var(--line);
   border-radius: 20px;
   padding: 30px 22px;
-  background: #fffdfa;
+  background: #FFFFFF;
   text-align: center;
 }
 .plan h3 {
@@ -733,7 +733,7 @@ main {
   color: #716b65;
 }
 .excluded li > span:first-child {
-  color: #af5046;
+  color: #7A1F2B;
 }
 .excluded li > span:last-child {
   text-decoration: line-through;
@@ -788,7 +788,7 @@ main {
 .complete {
   border: 2px solid var(--red);
   padding-top: 42px;
-  box-shadow: 0 12px 35px #C5241A0b;
+  box-shadow: 0 12px 35px #7A1F2B0b;
 }
 .popular {
   position: absolute;
@@ -822,7 +822,7 @@ main {
   padding: 18px 14px;
   border: 1px solid #D99A3790;
   border-radius: 12px;
-  background: #fff2dc;
+  background: #F8EEF1;
   margin-top: 12px;
   text-align: left;
 }
@@ -928,7 +928,7 @@ main {
   padding: 0 24px 22px 2px;
 }
 .finalCta {
-  background: #f8ead7;
+  background: #F4E9EC;
   border-top: 1px solid #D99A3760;
 }
 .finalCta .atlasIcon {

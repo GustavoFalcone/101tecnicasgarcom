@@ -1,12 +1,12 @@
 .hero h1{font-size:clamp(17px,4.48vw,32px);line-height:1.42;letter-spacing:-.045em}
-.hero h1 span{white-space:nowrap}
+.hero h1 span{white-space:normal}
 .hero h1 span:first-child{font-size:1em;margin-bottom:1px;text-decoration:underline;text-decoration-color:#D99A37;text-decoration-thickness:2px;text-underline-offset:5px}
 .plans h2 em{text-decoration:underline;text-decoration-color:#D99A37;text-decoration-thickness:3px;text-underline-offset:6px}
-.upgradeHint{display:flex;align-items:center;justify-content:center;gap:10px;background:#fff0d8;border:1px solid #D99A3780;border-radius:12px;padding:16px 10px;margin-top:20px;font-size:13px;line-height:1.5}
+.upgradeHint{display:flex;align-items:center;justify-content:center;gap:10px;background:#F8EEF1;border:1px solid #D99A3780;border-radius:12px;padding:16px 10px;margin-top:20px;font-size:13px;line-height:1.5}
 .upgradeHint>span{margin:0;max-width:215px;display:block}
 .upgradeHint .atlasIcon{flex-shrink:0;width:25px;height:25px;margin:0}
 .complete .anchorPrice,.complete .por,.complete>.price{text-align:left;align-self:stretch}
-.complete>.price{font-size:clamp(52px,13vw,68px);font-weight:800;line-height:1.04;color:#B51D13;text-shadow:0 3px 0 #fff,0 8px 22px #b51d1326;transform-origin:left center;animation:completePricePulse 2.8s ease-in-out infinite}
+.complete>.price{font-size:clamp(52px,13vw,68px);font-weight:800;line-height:1.04;color:#7A1F2B;text-shadow:0 3px 0 #fff,0 8px 22px #7A1F2B26;transform-origin:left center;animation:completePricePulse 2.8s ease-in-out infinite}
 @keyframes completePricePulse{50%{transform:scale(1.035)}}
 @media(prefers-reduced-motion:reduce){.complete>.price{animation:none}}
 .heroAsset:not(.pending),.peopleAsset:not(.pending),.bonusAsset:not(.pending),.planAsset:not(.pending),.upgradeAsset:not(.pending){aspect-ratio:auto;background:none;border:0;border-radius:0;padding:0;min-height:0}
@@ -19,9 +19,9 @@
 .imageBonus>img{display:block;width:100%;height:auto;object-fit:contain}
 .guaranteeSeal.imageSeal{border:0;outline:0;width:164px;height:auto;border-radius:0}
 .imageSeal>img{width:100%;height:auto;object-fit:contain}
-.basic .cta{background:#C5241A;box-shadow:0 4px 0 #94170f,0 9px 24px #c5241a38;color:#fff}
-.basic .cta:hover:not(:disabled){background:#e12b20}
-.upgrade .secondary{width:100%;max-width:520px;padding:14px 12px;border:2px solid #C5241A;border-radius:10px;background:#fff4f1;color:#C5241A;font-weight:700;text-decoration:none;transition:background .2s,color .2s,transform .2s}
-.upgrade .secondary:hover{background:#C5241A;color:#fff;transform:translateY(-1px)}
+.basic .cta{background:#7A1F2B;box-shadow:0 4px 0 #7A1F2B,0 9px 24px #7A1F2B38;color:#fff}
+.basic .cta:hover:not(:disabled){background:#7A1F2B}
+.upgrade .secondary{width:100%;max-width:520px;padding:14px 12px;border:2px solid #7A1F2B;border-radius:10px;background:#FAF4F6;color:#7A1F2B;font-weight:700;text-decoration:none;transition:background .2s,color .2s,transform .2s}
+.upgrade .secondary:hover{background:#7A1F2B;color:#fff;transform:translateY(-1px)}
 @media(min-width:700px){.hero h1{font-size:32px}.upgradeHint{font-size:14px}}
 @media(max-width:374px){.hero h1{font-size:4.4vw}.upgradeHint{font-size:12px;gap:6px}}
